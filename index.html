@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10110e">
+  <meta name="description" content="Enter the signal. Explore technology, robotics, innovation and the future at Techfest, IIT Bombay.">
+  <title>SIGNAL — Techfest, IIT Bombay</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="page-loader" aria-hidden="true">
+    <span class="loader-mark">S<span>/</span></span>
+    <div class="loader-track"><span></span></div>
+    <span class="loader-caption">ESTABLISHING CONNECTION...</span>
+  </div>
+
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Signal home">
+      <span class="brand-symbol">S<span>/</span></span>
+      <span class="brand-copy">TECHFEST <small>INDIAN INSTITUTE OF TECHNOLOGY BOMBAY</small></span>
+    </a>
+
+    <div class="header-status">
+      <span class="status-light"></span>
+      <span>FUTURE IS TRANSMITTING</span>
+    </div>
+
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="#manifesto">MANIFESTO</a>
+      <a href="#signals">EXPLORE</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a class="nav-cta" href="https://techfest.org/" target="_blank" rel="noopener noreferrer">
+        OFFICIAL SITE <span>↗</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow reveal">
+            <span class="eyebrow-index">TF / 026</span>
+            <span>THE NEXT FREQUENCY</span>
+          </div>
+
+          <h1 class="hero-title reveal">
+            SIGNAL<span class="title-slash">/</span>
+            <span class="title-second">THE</span>
+            <span class="title-outline">FUTURE<span class="lime-dot">.</span></span>
+          </h1>
+
+          <div class="hero-bottom reveal">
+            <p class="hero-description">
+              The ordinary is a dead frequency.
+              Tune into a world built by those who dare
+              to imagine what comes next.
+            </p>
+
+            <a href="#signals" class="round-link" aria-label="Explore Techfest">
+              <span>↓</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Abstract animated signal visualization">
+          <div class="visual-top">
+            <span>FIG. 001 / TRANSMISSION</span>
+            <span class="visual-live"><i></i> LIVE FEED</span>
+          </div>
+
+          <div class="signal-stage">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbit orbit-three"></div>
+
+            <svg class="signal-svg" viewBox="0 0 500 500" role="img" aria-label="Electric blue signal waves">
+              <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#d8ff62"/>
+                  <stop offset="45%" stop-color="#6f91ff"/>
+                  <stop offset="100%" stop-color="#4475ff"/>
+                </linearGradient>
+              </defs>
+              <g class="wave-group" fill="none" stroke="url(#waveGradient)" stroke-width="1.5">
+                <path d="M25 250 Q90 250 115 210 T190 250 T265 290 T340 250 T415 210 T475 250"/>
+                <path d="M25 250 Q90 250 115 185 T190 250 T265 315 T340 250 T415 185 T475 250"/>
+                <path d="M25 250 Q90 250 115 160 T190 250 T265 340 T340 250 T415 160 T475 250"/>
+                <path d="M25 250 Q90 250 115 135 T190 250 T265 365 T340 250 T415 135 T475 250"/>
+                <path d="M25 250 Q90 250 115 110 T190 250 T265 390 T340 250 T415 110 T475 250"/>
+                <path d="M25 250 Q90 250 115 85 T190 250 T265 415 T340 250 T415 85 T475 250"/>
+                <path d="M25 250 Q90 250 115 60 T190 250 T265 440 T340 250 T415 60 T475 250"/>
+              </g>
+              <circle cx="250" cy="250" r="5" fill="#d8ff62"/>
+              <circle cx="250" cy="250" r="15" fill="none" stroke="#d8ff62" opacity=".65"/>
+            </svg>
+
+            <div class="crosshair crosshair-a">+</div>
+            <div class="crosshair crosshair-b">+</div>
+            <div class="crosshair crosshair-c">+</div>
+
+            <span class="stage-label stage-label-top">AMPLITUDE: 09.8</span>
+            <span class="stage-label stage-label-bottom">FREQUENCY: INFINITE</span>
+            <span class="stage-coordinate">19°08' N<br>72°54' E</span>
+          </div>
+
+          <div class="visual-bottom">
+            <span>IDEAS WITHOUT LIMITS.</span>
+            <span>EST. IIT BOMBAY <b>↗</b></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-ticker" aria-label="Technology, robotics, innovation and discovery">
+        <div class="ticker-track">
+          <span>TECHNOLOGY</span><b>✳</b>
+          <span>ROBOTICS</span><b>✳</b>
+          <span>INNOVATION</span><b>✳</b>
+          <span>DISCOVERY</span><b>✳</b>
+          <span>TECHNOLOGY</span><b>✳</b>
+          <span>ROBOTICS</span><b>✳</b>
+          <span>INNOVATION</span><b>✳</b>
+          <span>DISCOVERY</span><b>✳</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto section-pad" id="manifesto">
+      <div class="section-kicker reveal">
+        <span>01 / THE MANIFESTO</span>
+        <span>BEYOND THE EXPECTED</span>
+      </div>
+
+      <div class="manifesto-layout">
+        <h2 class="manifesto-title reveal">
+          WE DON'T<br>
+          FOLLOW <span>THE</span><br>
+          <span class="manifesto-highlight">SIGNAL.</span>
+        </h2>
+
+        <div class="manifesto-aside reveal">
+          <span class="aside-symbol">↗</span>
+          <p>
+            We create it.
+          </p>
+          <p class="muted-copy">
+            A meeting point for restless minds, fearless builders,
+            emerging technologies and ideas that refuse to stay ideas.
+          </p>
+          <a class="text-link" href="https://techfest.org/" target="_blank" rel="noopener noreferrer">
+            DISCOVER TECHFEST <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="manifesto-footer">
+        <span>QUESTION EVERYTHING.</span>
+        <span>BUILD SOMETHING EXTRAORDINARY.</span>
+      </div>
+    </section>
+
+    <section class="signals section-pad" id="signals">
+      <div class="section-kicker reveal">
+        <span>02 / FREQUENCIES</span>
+        <span>CHOOSE YOUR TRANSMISSION</span>
+      </div>
+
+      <div class="signals-heading reveal">
+        <h2>FIND YOUR<br><span>FREQUENCY<span class="lime-dot">.</span></span></h2>
+        <p>Different disciplines.<br>One extraordinary playground.</p>
+      </div>
+
+      <div class="filter-bar reveal" role="group" aria-label="Filter experience categories">
+        <button class="filter-button active" data-filter="all" aria-pressed="true">ALL SIGNALS <span>04</span></button>
+        <button class="filter-button" data-filter="build" aria-pressed="false">BUILD</button>
+        <button class="filter-button" data-filter="compete" aria-pressed="false">COMPETE</button>
+        <button class="filter-button" data-filter="discover" aria-pressed="false">DISCOVER</button>
+      </div>
+
+      <div class="signal-cards">
+        <article class="signal-card card-blue reveal" data-category="compete">
+          <div class="card-meta"><span>FREQ. 001</span><span>COMPETITION</span></div>
+          <div class="card-graphic graphic-radar" aria-hidden="true">
+            <span class="radar-ring"></span><span class="radar-ring"></span>
+            <span class="radar-ring"></span><span class="radar-sweep"></span>
+            <span class="radar-center"></span>
+          </div>
+          <div class="card-content">
+            <span class="card-index">01 — OUTTHINK THE ORDINARY</span>
+            <h3>THE<br>CHALLENGE</h3>
+            <p>Test your ideas. Push your limits. Turn preparation into performance.</p>
+            <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer" aria-label="Explore Techfest competitions">EXPLORE <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="signal-card card-lime reveal" data-category="build">
+          <div class="card-meta"><span>FREQ. 002</span><span>ENGINEERING</span></div>
+          <div class="card-graphic graphic-grid" aria-hidden="true">
+            <span class="grid-core">BUILD<br>WHAT<br>ISN'T.</span>
+            <span class="grid-corner">[ 02 ]</span>
+          </div>
+          <div class="card-content">
+            <span class="card-index">02 — MAKE IT REAL</span>
+            <h3>THE<br>BUILD</h3>
+            <p>Engineering meets imagination. Prototype the ideas others call impossible.</p>
+            <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer" aria-label="Explore Techfest engineering activities">EXPLORE <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="signal-card card-paper reveal" data-category="discover">
+          <div class="card-meta"><span>FREQ. 003</span><span>LEARNING</span></div>
+          <div class="card-graphic graphic-target" aria-hidden="true">
+            <span class="target-ring"></span><span class="target-ring"></span>
+            <span class="target-ring"></span><span class="target-dot"></span>
+            <span class="target-label">EXPAND<br>THE KNOWN</span>
+          </div>
+          <div class="card-content">
+            <span class="card-index">03 — STAY CURIOUS</span>
+            <h3>THE<br>DISCOVERY</h3>
+            <p>Explore new frontiers through science, ideas and unexpected connections.</p>
+            <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer" aria-label="Explore Techfest learning opportunities">EXPLORE <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="signal-card card-dark reveal" data-category="build">
+          <div class="card-meta"><span>FREQ. 004</span><span>COMMUNITY</span></div>
+          <div class="card-graphic graphic-type" aria-hidden="true">
+            <span>IDEAS</span><span>NEED</span><span>PEOPLE<span class="lime-dot">.</span></span>
+          </div>
+          <div class="card-content">
+            <span class="card-index">04 — BETTER TOGETHER</span>
+            <h3>THE<br>COLLECTIVE</h3>
+            <p>Meet curious minds, exchange perspectives and find your people.</p>
+            <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer" aria-label="Explore the Techfest community">EXPLORE <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+
+      <p class="cards-note">CONCEPTUAL CATEGORIES / VISIT THE OFFICIAL WEBSITE FOR VERIFIED EVENTS</p>
+    </section>
+
+    <section class="experience section-pad" id="experience">
+      <div class="section-kicker reveal">
+        <span>03 / THE EXPERIENCE</span>
+        <span>MARK YOUR CALENDAR</span>
+      </div>
+
+      <div class="experience-panel reveal">
+        <div class="experience-copy">
+          <span class="experience-label">THE NEXT CHAPTER</span>
+          <h2>THREE DAYS.<br><span>ENDLESS</span><br>POSSIBILITIES.</h2>
+          <p>
+            A celebration of technology, creativity and human ingenuity
+            at IIT Bombay. Find the next challenge worth taking.
+          </p>
+          <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer" class="button-primary">
+            EXPLORE OFFICIAL TECHFEST <span>↗</span>
+          </a>
+        </div>
+
+        <div class="date-module">
+          <div class="date-top"><span>EVENT WINDOW</span><span>TF / 30</span></div>
+          <div class="date-number">16<span>—</span>18</div>
+          <div class="date-month">DECEMBER <span>2026</span></div>
+          <div class="date-divider"></div>
+          <div class="date-location"><span>LOCATION</span><strong>IIT BOMBAY</strong></div>
+          <div class="date-location"><span>EDITION</span><strong>30TH TECHFEST</strong></div>
+          <span class="date-star" aria-hidden="true">✳</span>
+        </div>
+      </div>
+      <p class="date-note">Dates shown for the 2026 edition. Confirm event-specific schedules on the official website.</p>
+    </section>
+
+    <section class="closing section-pad">
+      <span class="closing-kicker reveal">TRANSMISSION DOESN'T END HERE.</span>
+      <h2 class="closing-title reveal">YOUR MOVE<span>.</span></h2>
+      <p class="reveal">The future isn't a spectator sport.</p>
+      <a class="closing-cta reveal" href="https://techfest.org/" target="_blank" rel="noopener noreferrer">
+        ENTER TECHFEST <span>↗</span>
+      </a>
+      <div class="closing-orbit" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="#home">SIGNAL<span>/</span></a>
+    <p>AN INDEPENDENT LANDING PAGE CONCEPT<br>FOR TECHFEST, IIT BOMBAY.</p>
+    <div class="footer-links">
+      <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer">OFFICIAL WEBSITE ↗</a>
+      <a href="#home">BACK TO TOP ↑</a>
+    </div>
+    <span class="footer-year">© 2026 / CONCEPT DESIGN</span>
+  </footer>
+
+  <button class="back-top" aria-label="Back to top">↑</button>
+</body>
+</html>
